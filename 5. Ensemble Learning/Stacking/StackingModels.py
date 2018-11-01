@@ -25,7 +25,7 @@ def StackingModels(models, meta_model, X_train, y_train, X_test, task='clf', use
             
         if task == 'clf':
             test_pred_final = np.array([1 if i>0.5 else 0 for i in test_pred.mean(axis=1)])
-        elif task=='reg':
+        elif task == 'reg':
             test_pred_final = test_pred.mean(axis=1)
         return valid_pred, test_pred_final
     
