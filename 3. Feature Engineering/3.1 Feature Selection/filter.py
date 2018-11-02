@@ -35,5 +35,5 @@ print("Cancer's shape: {} ---> {}".format(X_cancer.shape, X_cancer_selected.shap
 # 回归问题：波士顿房价数据集
 X_boston, y_boston = load_boston(return_X_y=True)
 transformer = GenericUnivariateSelect(score_func=mutual_info_regression, mode='percentile', param=85)
-X_new = transformer.fit_transform(X_boston, y_boston)
-print("Boston's shape: {} ---> {}".format(X_boston.shape, X_new.shape))
+X_boston_selected = transformer.fit_transform(X_boston, y_boston)
+print("Boston's shape: {} ---> {}".format(X_boston.shape, X_boston_selected.shape))
