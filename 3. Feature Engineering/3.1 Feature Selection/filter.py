@@ -8,7 +8,6 @@ from sklearn.feature_selection import GenericUnivariateSelect, mutual_info_class
 
 '''
 API : GenericUnivariateSelect(score_func=mutual_info_classif, mode='percentile', param=85)
-   
    1) 参数score_func为评分函数。
    - 对于分类问题，可以取值：chi2(卡方检验)、mutual_info_classif(互信息)、f_classif(F检验)
    - 对于回归问题，可以取值：mutual_info_regression、f_regression 
