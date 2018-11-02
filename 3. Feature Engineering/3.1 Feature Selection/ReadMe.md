@@ -3,6 +3,7 @@
 - **E-Mail：** maxiaoscut@aliyun.com
 - **GitHub：**  https://github.com/Albertsr
 
+### 详细分析与解读：[三大特征选择 by MaXiao](https://nbviewer.jupyter.org/github/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.1%20Feature%20Selection/Feature%20Selection.ipynb)
 ---
 
 ## 1.Filter (过滤型)
