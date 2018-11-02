@@ -15,8 +15,8 @@ sklearn.feature_selection模块提供了两个API可用于wrapper，分别为：
 2. RFECV(estimator, step=1, min_features_to_select=1, cv='warn', scoring=None, verbose=0, n_jobs=None)
 
 - 两者的区别在于RFECV可以通过交叉验证的方式返回最佳的特征数，而RFE需要通过参数n_features_to_select预先指定；
-- estimator：模型必须具备coef_或feature_importances_属性用于评估特征重要性。一般来说线性模型以及线性核SVM具备coef_属性、
-             决策树类算法具备feature_importances_属性 
+- estimator：模型必须具备coef_或feature_importances_属性用于评估特征重要性。
+             一般来说线性模型以及线性核SVM具备coef_属性、决策树类算法具备feature_importances_属性 
 - step：整数或小数形式，表示每次迭代剔除的特征数；
 
 属性说明：
