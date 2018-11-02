@@ -43,8 +43,8 @@ rfecv_result.sort_values('Ranking', inplace=True)
 # 将保留特征对应的support_与ranking_属性标红
 def highlight(s):
     if isinstance(s[0], np.bool_):
-        cond = s == s.max()
+        criterion = s == s.max()
     else:
-        cond = s == s.min()
-    return ['color: red' if v else '' for v in cond]
+        criterion = s == s.min()
+    return ['color: red' if v else '' for v in criterion]
 print(rfecv_result.style.apply(highlight, subset=['Support', 'Ranking']))
