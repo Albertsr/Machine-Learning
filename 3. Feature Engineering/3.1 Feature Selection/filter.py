@@ -15,7 +15,7 @@ API : GenericUnivariateSelect(score_func=mutual_info_classif, mode='percentile',
    
    注意事项：
    - 卡方检验可用于检测非负特征与分类标签列的独立性，卡方统计量越大，两者越可能相互独立
-   - 互信息既能捕捉到线性关系，也能捕捉到非线性关系，因此多采用mutual_info_classif或mutual_info_regression
+   - 互信息既能捕捉到线性关系，也能捕捉到非线性关系，因此习惯采用mutual_info_classif或mutual_info_regression
    
    2）参数mode为选择模式
    - 可以取值：{'percentile', 'k_best', 'fpr', 'fdr', 'fwe'}
