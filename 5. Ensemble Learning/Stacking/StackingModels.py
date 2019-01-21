@@ -1,4 +1,4 @@
-# Author：MaXiao
+# Author：马肖
 # E-mail：maxiaoscut@aliyun.com
 # Github：https://github.com/Albertsr
 
@@ -6,7 +6,7 @@ import numpy as np
 from sklearn.model_selection import KFold
 
 
-def StackingModels(models, meta_model, X_train, y_train, X_test, task='clf', use_probas=True, cv=5, random_state=2018):
+def StackingModels(models, meta_model, X_train, y_train, X_test, task_mode='clf', return_proba=True, cv=5, random_state=2018):
     ntrain, ntest = X_train.shape[0], X_test.shape[0]
     kf = KFold(n_splits=cv, shuffle=True, random_state=random_state)
     
@@ -23,10 +23,11 @@ def StackingModels(models, meta_model, X_train, y_train, X_test, task='clf', use
             # 对测试集进行预测
             test_pred[:, i] = model.predict(X_test)
             
-        if task == 'clf':
+        if task_mode == 'clf':
             test_pred_final = np.array([1 if i>0.5 else 0 for i in test_pred.mean(axis=1)])
-        elif task == 'reg':
+        elif task_mode == 'reg':
             test_pred_final = test_pred.mean(axis=1)
+            
         return valid_pred, test_pred_final
     
     # 生成第二级的训练集和测试集
@@ -41,7 +42,7 @@ def StackingModels(models, meta_model, X_train, y_train, X_test, task='clf', use
     meta_model.fit(train_second, y_train)
     test_pred = meta_model.predict(test_second)
     
-    if use_probas:
+    if task_mode == 'clf' and return_proba:
         test_prob = meta_model.predict_proba(test_second)[:, -1]
         return test_pred, test_prob
     else:
