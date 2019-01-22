@@ -114,19 +114,33 @@
 
 ### 7. 模型评估
 
-- **交叉验证与常见评估指标：** [模型性能](http://note.youdao.com/noteshare?id=417577308d6de13a1e21168d96cb9a76&sub=0F36C3976E3A420182A5A84782656470)
+- **交叉验证与常见评估指标：** [交叉验证与常见评估指标](http://note.youdao.com/noteshare?id=417577308d6de13a1e21168d96cb9a76&sub=0F36C3976E3A420182A5A84782656470)
 
-- **KS值：** [ks_value.py]()
+- **KS值** 
+  - [ks_value.py](https://github.com/Albertsr/Machine-Learning/blob/master/7.%20Model%20Evaluation/ks_value.py) 
+  - [绘制KS曲线](https://github.com/Albertsr/Machine-Learning/blob/master/7.%20Model%20Evaluation/ks_curve.py)
+  
+  ![ks curve](https://github.com/Albertsr/Machine-Learning/blob/master/7.%20Model%20Evaluation/Pics/ks%20curve.jpg)
 
-- **G-Mean：** [gmean.py](https://github.com/Albertsr/Class-Imbalance/blob/master/5.%20Appropriate%20Metrics/gmean.py)
+- **G-Mean与Coverage的详细说明：**
+  - **G-Mean：** [gmean.py](https://github.com/Albertsr/Class-Imbalance/blob/master/5.%20Appropriate%20Metrics/gmean.py)
 
-- **Coverage：** [coverage.py](https://github.com/Albertsr/Class-Imbalance/blob/master/5.%20Appropriate%20Metrics/coverage.py)
+  - **Coverage：** [coverage.py](https://github.com/Albertsr/Class-Imbalance/blob/master/5.%20Appropriate%20Metrics/coverage.py)
+
+- **ROC曲线与PRC曲线的绘制**
+  - **绘制ROC代码：** [roc](https://github.com/Albertsr/Machine-Learning/blob/master/7.%20Model%20Evaluation/roc.py)
+  
+  ![roc](https://github.com/Albertsr/Machine-Learning/blob/master/7.%20Model%20Evaluation/Pics/roc.jpg)
+
+  - **绘制PRC代码：** [prc](https://github.com/Albertsr/Machine-Learning/blob/master/7.%20Model%20Evaluation/prc.py)
+  
+  ![prc](https://github.com/Albertsr/Machine-Learning/blob/master/7.%20Model%20Evaluation/Pics/prc.jpg)  
 
 ---
 
 ### 8. 模型持久化
-- **运用joblib序列化各反序列化机器学习模型**
+- **运用joblib序列化各反序列化机器学习模型：** [joblib.py](https://github.com/Albertsr/Machine-Learning/blob/master/8.%20Model%20Persistence/joblib.py)
 
-- **运用pickle序列化/反序列化机器学习模型**
+- **运用pickle序列化/反序列化机器学习模型：** [pickle.py](https://github.com/Albertsr/Machine-Learning/blob/master/8.%20Model%20Persistence/pickle.py)
 
 
