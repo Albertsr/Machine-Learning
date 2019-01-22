@@ -10,8 +10,6 @@ from matplotlib import pyplot as plt
 def plot_ks(y_true, y_prob, thresholds_num=1000):
     
     thresholds = np.linspace(np.min(y_prob), np.max(y_prob), thresholds_num)
-    
-    
     def tpr_fpr_delta(threshold):
         y_pred = np.array([int(i>threshold) for i in y_prob])
         tn, fp, fn, tp = confusion_matrix(y_true, y_pred).ravel()
