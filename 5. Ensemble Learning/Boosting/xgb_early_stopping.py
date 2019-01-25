@@ -14,8 +14,8 @@ from sklearn.metrics import accuracy_score
 '''API 说明
 https://xgboost.readthedocs.io/en/latest/python/python_api.html#xgboost.XGBClassifier.fit
 
-#### API：fit(X, y, sample_weight=None, eval_set=None, eval_metric=None, early_stopping_rounds=None, verbose=True, xgb_model=None, sample_weight_eval_set=None, callbacks=None)
-
+#### API：fit(X, y, sample_weight=None, eval_set=None, eval_metric=None, early_stopping_rounds=None, 
+              verbose=True, xgb_model=None, sample_weight_eval_set=None, callbacks=None)
 
 - **参数eval_set：** 设置验证集
   - 一个[(X, y)]形式的列表，数据集(X, y)作为验证集;
