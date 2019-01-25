@@ -46,7 +46,7 @@
 - **三大特征选择理论分析：** [特征选择详解](https://github.com/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.1%20Feature%20Selection/ReadMe.md)
 
 - **代码实例**
-  - **Filter：** [filter.py](https://githuychine-Learning/blob/master/3.%20Feature%20Engineering/3.1%20Feature%20Selection/filter.py)
+  - **Filter：** [filter.py](https://github.com/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.1%20Feature%20Selection/filter.py)
   - **Wrapper：** [wrapper.py](https://github.com/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.1%20Feature%20Selection/wrapper.py)
   - **Embedded：** [embedded.py](https://github.com/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.1%20Feature%20Selection/embedded.py)
 
