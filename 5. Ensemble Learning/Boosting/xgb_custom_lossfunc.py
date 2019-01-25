@@ -2,8 +2,6 @@
 # E-mail：maxiaoscut@aliyun.com
 # Github：https://github.com/Albertsr
 
-
-
 import numpy as np
 from xgboost import XGBClassifier, XGBRegressor
 
@@ -19,7 +17,6 @@ def log_cosh_obj(y_true, y_pred):
 model = XGBRegressor(objective=log_cosh_obj)
 # 分类问题
 model = XGBClassifier(objective=log_cosh_obj)
-
 
 
 # 2. Pseudo-Huber loss function，可以近似替代MAE
