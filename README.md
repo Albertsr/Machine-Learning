@@ -2,7 +2,7 @@
 - **E-Mail：** maxiaoscut@aliyun.com
 - **GitHub：**  https://github.com/Albertsr
 
-- **备注：由于Github无法正常显示公式，部分链接为个人整理的有道云笔记链接，若无法正常显示，请尝试刷新处理**
+- **备注：由于Github无法正常显示公式，部分链接为个人整理的有道云笔记链接，若无法正常显示，请尝试刷新**
 
 ---
 
