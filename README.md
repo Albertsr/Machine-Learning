@@ -52,7 +52,9 @@
 
 #### 3.2 特征抽取
 - **PCA：** [PCA详解](http://note.youdao.com/noteshare?id=596c5a7394109f8da87be7ce74ee5e56&sub=AAB5BEA8761C4C40B0B60E697ED749E9)
-
+   - 通过原矩阵的SVD实现PCA：[pca_svd.py](https://github.com/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.2%20Feature%20Extraction/pca_svd.py)
+   - 通过协方差矩阵的EVD实现PCA：[pca_evd.py](https://github.com/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.2%20Feature%20Extraction/pca_evd.py)
+   
 - **KernelPCA：** [KernelPCA详解](http://note.youdao.com/noteshare?id=6841be74d0fcf6f6a121869d6956aad0&sub=4107BFC5B47A49DD86524504B46EA639)
 
 - **SVD：** [SVD详解](http://note.youdao.com/noteshare?id=5ebc61d03c25c9164bc461f8fa66827d&sub=56B3F62C7C1445E6B715777AA5F15BDC)
