@@ -82,7 +82,15 @@
 ### 5. 集成算法
 #### 5.1 Boosting
 - **GBDT：** [GBDT详解](http://note.youdao.com/noteshare?id=68a1bb88a57b867b54196f18e7ebdfcd&sub=E097CC28CB2747DCBF60FA967D93239A)
-- **GBDT+LR：** [GBDT与LR的融合](http://note.youdao.com/noteshare?id=7a3116acb15caae65a3856e6078aa2f0&sub=46BE3B40DB1A4079AC223991FAC88BD0)
+- **GBDT+LR：** [GBDT与LR的融合：思路解析](http://note.youdao.com/noteshare?id=7a3116acb15caae65a3856e6078aa2f0&sub=46BE3B40DB1A4079AC223991FAC88BD0)
+  - **参数一致的情况下，LightGBM+LR的性能可能更佳**
+    - [lightgbm_lr.py](https://github.com/Albertsr/Machine-Learning/blob/master/5.%20Ensemble%20Learning/Boosting/GBDT-LR/lightgbm_lr.py)
+    - [xgboost_lr.py](https://github.com/Albertsr/Machine-Learning/blob/master/5.%20Ensemble%20Learning/Boosting/GBDT-LR/xgboost_lr.py)
+    - [gbdt_lr.py](https://github.com/Albertsr/Machine-Learning/blob/master/5.%20Ensemble%20Learning/Boosting/GBDT-LR/gbdt_lr.py)
+  
+  - **性能对比：**
+    - [GBDT系列算法与LR的融合及性能对比.ipynb](https://github.com/Albertsr/Machine-Learning/blob/master/5.%20Ensemble%20Learning/Boosting/GBDT-LR/GBDT%E7%B3%BB%E5%88%97%E7%AE%97%E6%B3%95%E4%B8%8ELR%E7%9A%84%E8%9E%8D%E5%90%88%E5%8F%8A%E6%80%A7%E8%83%BD%E5%AF%B9%E6%AF%94.ipynb)
+
 
 - **XGBoost：** [XGBoost详解](http://note.youdao.com/noteshare?id=8ec0afbb4b92a3ccfde94decd3bb2432&sub=2A73304730AF4BC0B0F8C53ECCA22917)
    - **自定义损失函数：** [xgb_custom_lossfunc.py](https://github.com/Albertsr/Machine-Learning/blob/master/5.%20Ensemble%20Learning/Boosting/xgb_custom_lossfunc.py)
@@ -110,15 +118,14 @@
 
 
 ### 6. 聚类
-#### 6.1 层次聚类
-- [层次聚类](http://note.youdao.com/noteshare?id=a93a6fc70108222262cc93ee3faef0a0&sub=A8848EAC58F04E08AE11D2BC424273B4)
-
-#### 6.2 密度聚类DBSCAN
-- [密度聚类DBSCAN](http://note.youdao.com/noteshare?id=2f9664802a90dfd9ecb2d421014a9696&sub=0FFCFBB5E9C14B1FA1DCE510700FB23A)
-
-#### 6.3 谱聚类
+#### 6.1 谱聚类
 - [谱聚类Spectral Clustering](http://note.youdao.com/noteshare?id=319bd869104b6674bef01dd0a3024597&sub=7740B67581D04E69A6DF492CD8E5E685)
 
+#### 6.2 层次聚类BIRCH
+- [层次聚类BIRCH](http://note.youdao.com/noteshare?id=a93a6fc70108222262cc93ee3faef0a0&sub=A8848EAC58F04E08AE11D2BC424273B4)
+
+#### 6.3 密度聚类DBSCAN
+- [密度聚类DBSCAN](http://note.youdao.com/noteshare?id=2f9664802a90dfd9ecb2d421014a9696&sub=0FFCFBB5E9C14B1FA1DCE510700FB23A)
 
 ---
 
@@ -126,16 +133,16 @@
 
 - **交叉验证与常见评估指标：** [交叉验证与常见评估指标](http://note.youdao.com/noteshare?id=417577308d6de13a1e21168d96cb9a76&sub=0F36C3976E3A420182A5A84782656470)
 
+- **G-Mean与Coverage：** [G-Mean与Coverage](https://github.com/Albertsr/Anomaly-Detection#22-模型评估指标)
+  - **G-Mean：** [gmean.py](https://github.com/Albertsr/Class-Imbalance/blob/master/5.%20Appropriate%20Metrics/gmean.py)
+
+  - **Coverage：** [coverage.py](https://github.com/Albertsr/Class-Imbalance/blob/master/5.%20Appropriate%20Metrics/coverage.py)
+
 - **KS值** 
   - [ks_value.py](https://github.com/Albertsr/Machine-Learning/blob/master/7.%20Model%20Evaluation/ks_value.py) 
   - [绘制KS曲线](https://github.com/Albertsr/Machine-Learning/blob/master/7.%20Model%20Evaluation/ks_curve.py)
   
   ![ks curve](https://github.com/Albertsr/Machine-Learning/blob/master/7.%20Model%20Evaluation/Pics/ks%20curve.jpg)
-
-- **G-Mean与Coverage的详细说明：** [G-Mean与Coverage](https://github.com/Albertsr/Anomaly-Detection#22-模型评估指标)
-  - **G-Mean：** [gmean.py](https://github.com/Albertsr/Class-Imbalance/blob/master/5.%20Appropriate%20Metrics/gmean.py)
-
-  - **Coverage：** [coverage.py](https://github.com/Albertsr/Class-Imbalance/blob/master/5.%20Appropriate%20Metrics/coverage.py)
 
 - **ROC曲线与PRC曲线的绘制**
   - **绘制ROC代码：** [roc.py](https://github.com/Albertsr/Machine-Learning/blob/master/7.%20Model%20Evaluation/roc.py)
