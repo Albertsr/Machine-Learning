@@ -56,9 +56,9 @@
 - **SVD：** [SVD详解](http://note.youdao.com/noteshare?id=5ebc61d03c25c9164bc461f8fa66827d&sub=56B3F62C7C1445E6B715777AA5F15BDC)
 
 #### 3.3 特征构建
-- 离散型特征
-- 时间型特征
-- 连续型特征
+- 高基数离散型特征的处理：[high_categorical.py](https://github.com/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.3%20Feature%20Construction/high_categorical.py)
+- 时间型特征的处理：[create_time_feature.py](https://github.com/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.3%20Feature%20Construction/create_time_feature.py)
+- 连续型特征的处理：[连续型特征的处理.ipynb](https://github.com/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.3%20Feature%20Construction/%E8%BF%9E%E7%BB%AD%E5%9E%8B%E7%89%B9%E5%BE%81%E7%9A%84%E5%A4%84%E7%90%86.ipynb)
 
 ---
 ### 4. 经典监督算法
@@ -103,12 +103,15 @@
 
 
 ### 6. 聚类
-#### 6.1 层次聚类：[层次聚类](http://note.youdao.com/noteshare?id=a93a6fc70108222262cc93ee3faef0a0&sub=A8848EAC58F04E08AE11D2BC424273B4)
+#### 6.1 层次聚类
+- [层次聚类](http://note.youdao.com/noteshare?id=a93a6fc70108222262cc93ee3faef0a0&sub=A8848EAC58F04E08AE11D2BC424273B4)
 
-#### 6.2 密度聚类DBSCAN：[密度聚类DBSCAN](http://note.youdao.com/noteshare?id=2f9664802a90dfd9ecb2d421014a9696&sub=0FFCFBB5E9C14B1FA1DCE510700FB23A)
-
+#### 6.2 密度聚类DBSCAN
+- [密度聚类DBSCAN](http://note.youdao.com/noteshare?id=2f9664802a90dfd9ecb2d421014a9696&sub=0FFCFBB5E9C14B1FA1DCE510700FB23A)
 
 #### 6.3 谱聚类
+- [谱聚类Spectral Clustering](http://note.youdao.com/noteshare?id=319bd869104b6674bef01dd0a3024597&sub=7740B67581D04E69A6DF492CD8E5E685)
+
 
 ---
 
@@ -122,17 +125,17 @@
   
   ![ks curve](https://github.com/Albertsr/Machine-Learning/blob/master/7.%20Model%20Evaluation/Pics/ks%20curve.jpg)
 
-- **G-Mean与Coverage的详细说明：**
+- **G-Mean与Coverage的详细说明：** [G-Mean与Coverage](https://github.com/Albertsr/Anomaly-Detection#22-模型评估指标)
   - **G-Mean：** [gmean.py](https://github.com/Albertsr/Class-Imbalance/blob/master/5.%20Appropriate%20Metrics/gmean.py)
 
   - **Coverage：** [coverage.py](https://github.com/Albertsr/Class-Imbalance/blob/master/5.%20Appropriate%20Metrics/coverage.py)
 
 - **ROC曲线与PRC曲线的绘制**
-  - **绘制ROC代码：** [roc](https://github.com/Albertsr/Machine-Learning/blob/master/7.%20Model%20Evaluation/roc.py)
+  - **绘制ROC代码：** [roc.py](https://github.com/Albertsr/Machine-Learning/blob/master/7.%20Model%20Evaluation/roc.py)
   
   ![roc](https://github.com/Albertsr/Machine-Learning/blob/master/7.%20Model%20Evaluation/Pics/roc.jpg)
 
-  - **绘制PRC代码：** [prc](https://github.com/Albertsr/Machine-Learning/blob/master/7.%20Model%20Evaluation/prc.py)
+  - **绘制PRC代码：** [prc.py](https://github.com/Albertsr/Machine-Learning/blob/master/7.%20Model%20Evaluation/prc.py)
   
   ![prc](https://github.com/Albertsr/Machine-Learning/blob/master/7.%20Model%20Evaluation/Pics/prc.jpg)  
 
@@ -142,5 +145,3 @@
 - **运用joblib序列化各反序列化机器学习模型：** [joblib.py](https://github.com/Albertsr/Machine-Learning/blob/master/8.%20Model%20Persistence/joblib.py)
 
 - **运用pickle序列化/反序列化机器学习模型：** [pickle.py](https://github.com/Albertsr/Machine-Learning/blob/master/8.%20Model%20Persistence/pickle.py)
-
-
