@@ -36,9 +36,9 @@
 ## 第二部分：机器学习流程
 
 ### 1. 数据探索
-##### [1.1 数据探索综述](https://github.com/Albertsr/Machine-Learning/tree/master/1.%20Data%20Exploration)
+#### [1.1 数据探索综述](https://github.com/Albertsr/Machine-Learning/tree/master/1.%20Data%20Exploration)
 
-##### [1.2 对Titanic数据集进行探索](https://nbviewer.jupyter.org/github/Albertsr/Machine-Learning/blob/master/1.%20Data%20Exploration/%E4%B8%93%E9%A2%981%EF%BC%9A%E5%88%86%E7%B1%BB%E9%97%AE%E9%A2%98%E7%9A%84%E6%95%B0%E6%8D%AE%E6%8E%A2%E7%B4%A2%28%E4%BB%A5Titanic%E6%95%B0%E6%8D%AE%E9%9B%86%E4%B8%BA%E4%BE%8B%29.ipynb)
+#### [1.2 对Titanic数据集进行探索](https://nbviewer.jupyter.org/github/Albertsr/Machine-Learning/blob/master/1.%20Data%20Exploration/%E4%B8%93%E9%A2%981%EF%BC%9A%E5%88%86%E7%B1%BB%E9%97%AE%E9%A2%98%E7%9A%84%E6%95%B0%E6%8D%AE%E6%8E%A2%E7%B4%A2%28%E4%BB%A5Titanic%E6%95%B0%E6%8D%AE%E9%9B%86%E4%B8%BA%E4%BE%8B%29.ipynb)
 
 - [回归问题中的相关系数矩阵与热力图(以Boston数据集为例)](https://nbviewer.jupyter.org/github/Albertsr/Machine-Learning/blob/master/1.%20Data%20Exploration/%E4%B8%93%E9%A2%982%EF%BC%9A%E5%9B%9E%E5%BD%92%E9%97%AE%E9%A2%98%E4%B8%AD%E7%9A%84%E7%9B%B8%E5%85%B3%E7%B3%BB%E6%95%B0%E7%9F%A9%E9%98%B5%E4%B8%8E%E7%83%AD%E5%8A%9B%E5%9B%BE%28%E4%BB%A5Boston%E6%95%B0%E6%8D%AE%E9%9B%86%E4%B8%BA%E4%BE%8B%29.ipynb)
 
