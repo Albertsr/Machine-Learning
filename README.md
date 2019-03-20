@@ -2,7 +2,7 @@
 - **E-Mail：** maxiaoscut@aliyun.com
 - **GitHub：**  https://github.com/Albertsr
 
-- ==**备注：由于Github无法正常显示公式，部分链接为个人整理的有道云笔记链接，若无法正常显示，请尝试刷新**==
+- **备注：由于Github无法正常显示公式，部分链接为个人整理的有道云笔记链接，若无法正常显示，请尝试刷新**
 
 ---
 
@@ -193,26 +193,25 @@
 ## 第三部分：基础知识
 
 ### 1. 最优化
-- [泰勒展开式与梯度下降法](http://note.youdao.com/noteshare?id=04b615c3ed519b08b2fadc1b31584b51&sub=BB9C8E31B8E041CAB48EBFFB86F81237)
+- **[1.1 泰勒展开式与梯度下降法](http://note.youdao.com/noteshare?id=04b615c3ed519b08b2fadc1b31584b51&sub=BB9C8E31B8E041CAB48EBFFB86F81237)**
 
-- [牛顿法与拟牛顿法](http://note.youdao.com/noteshare?id=a833fad696ba110d0bfb3472ef9e3fb9&sub=E8D135E215314FA0B9C21103EC1AA2DB)
+- **[1.2 牛顿法与拟牛顿法](http://note.youdao.com/noteshare?id=a833fad696ba110d0bfb3472ef9e3fb9&sub=E8D135E215314FA0B9C21103EC1AA2DB)**
 
-- [梯度下降法 vs 牛顿法](http://note.youdao.com/noteshare?id=879c45854ec2dc9bb1de214181ce4a67&sub=E09CCD8D6C154B5390F052B3CD159EC7)
+- **[1.3 梯度下降法 vs 牛顿法](http://note.youdao.com/noteshare?id=879c45854ec2dc9bb1de214181ce4a67&sub=E09CCD8D6C154B5390F052B3CD159EC7)**
 
 ### 2. 损失函数
-- [六大损失函数](http://note.youdao.com/noteshare?id=b269151a475b95393019b80584e4a521&sub=4434BC48320E4A0AB2AAF95B6718B318)
+- **[2.1 六大损失函数](http://note.youdao.com/noteshare?id=b269151a475b95393019b80584e4a521&sub=4434BC48320E4A0AB2AAF95B6718B318)**
 
-- [熵、KL散度、交叉熵](http://note.youdao.com/noteshare?id=7824f4e49e0a73f0734864cc10a9b25f&sub=B0D769D4E7DE4A88BABD0C0372E6B26A)
+- **[2.2 熵、KL散度、交叉熵](http://note.youdao.com/noteshare?id=7824f4e49e0a73f0734864cc10a9b25f&sub=B0D769D4E7DE4A88BABD0C0372E6B26A)**
 
-- [Huber Loss & Fair Loss](http://note.youdao.com/noteshare?id=e724e03dd48476579e6718feedb42bb7&sub=1293076C8DEF41EE934C9DD4A15F3BBA)
+- **[2.3 Huber Loss & Fair Loss](http://note.youdao.com/noteshare?id=e724e03dd48476579e6718feedb42bb7&sub=1293076C8DEF41EE934C9DD4A15F3BBA)**
 
-- [经验风险、期望风险、结构风险](http://note.youdao.com/noteshare?id=17dda31b4a34b821ae4b3014a2af13cc&sub=73C8E3F08CB4414E8D393E4FE9461ED0)
+- **[2.4 经验风险、期望风险、结构风险](http://note.youdao.com/noteshare?id=17dda31b4a34b821ae4b3014a2af13cc&sub=73C8E3F08CB4414E8D393E4FE9461ED0)**
 
 ### 3. 其他
-- [Bias-Variance Tradeoff](http://note.youdao.com/noteshare?id=49c9bbe574f4d3c982c82cdde9bb0805&sub=B557C999E1FE42E6BD5BC3C8536A52C7)
+- **[3.1 Bias-Variance Tradeoff](http://note.youdao.com/noteshare?id=49c9bbe574f4d3c982c82cdde9bb0805&sub=B557C999E1FE42E6BD5BC3C8536A52C7)**
 
 
-- [生成模型与判别模型](http://note.youdao.com/noteshare?id=ed50912f4b1a95100513667015f3fa01&sub=DE4495BD714B4BFD8FC33585D3204A2C)
-
+- **[3.2 生成模型与判别模型](http://note.youdao.com/noteshare?id=ed50912f4b1a95100513667015f3fa01&sub=DE4495BD714B4BFD8FC33585D3204A2C)**
 
 ---
