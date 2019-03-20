@@ -106,20 +106,23 @@
 
 ### 5. 集成算法
 #### 5.1 Boosting
-- **[1）GBDT理论详解](http://note.youdao.com/noteshare?id=68a1bb88a57b867b54196f18e7ebdfcd&sub=E097CC28CB2747DCBF60FA967D93239A)**
+- **1）GBDT：[GBDT理论详解](http://note.youdao.com/noteshare?id=68a1bb88a57b867b54196f18e7ebdfcd&sub=E097CC28CB2747DCBF60FA967D93239A)**
 
-- **[2）GBDT+LR：理论分析](http://note.youdao.com/noteshare?id=7a3116acb15caae65a3856e6078aa2f0&sub=46BE3B40DB1A4079AC223991FAC88BD0)**
+- **2）GBDT+LR：[GBDT与LR的融合理论详解](http://note.youdao.com/noteshare?id=7a3116acb15caae65a3856e6078aa2f0&sub=46BE3B40DB1A4079AC223991FAC88BD0)**
     - [代码：lightgbm_lr.py](https://github.com/Albertsr/Machine-Learning/blob/master/5.%20Ensemble%20Learning/Boosting/GBDT-LR/lightgbm_lr.py)
     - [代码：xgboost_lr.py](https://github.com/Albertsr/Machine-Learning/blob/master/5.%20Ensemble%20Learning/Boosting/GBDT-LR/xgboost_lr.py)
     - [代码：gbdt_lr.py](https://github.com/Albertsr/Machine-Learning/blob/master/5.%20Ensemble%20Learning/Boosting/GBDT-LR/gbdt_lr.py)
     - [GBDT系列算法与LR融合与性能对比](https://nbviewer.jupyter.org/github/Albertsr/Machine-Learning/blob/master/5.%20Ensemble%20Learning/Boosting/GBDT-LR/GBDT%E7%B3%BB%E5%88%97%E4%B8%8ELR%E7%9A%84%E8%9E%8D%E5%90%88%26%E6%80%A7%E8%83%BD%E5%AF%B9%E6%AF%94.ipynb)
+    
+    ![gbdt_lr_contrast](https://github.com/Albertsr/Machine-Learning/blob/master/5.%20Ensemble%20Learning/Boosting/gbdt_lr_contrast.jpg)
 
-- **[3）XGBoost理论详解](http://note.youdao.com/noteshare?id=8ec0afbb4b92a3ccfde94decd3bb2432&sub=2A73304730AF4BC0B0F8C53ECCA22917)**
+
+- **3）XGBoost：[XGBoost理论详解](http://note.youdao.com/noteshare?id=8ec0afbb4b92a3ccfde94decd3bb2432&sub=2A73304730AF4BC0B0F8C53ECCA22917)**
 
    - **自定义损失函数：** [xgb_custom_lossfunc.py](https://github.com/Albertsr/Machine-Learning/blob/master/5.%20Ensemble%20Learning/Boosting/xgb_custom_lossfunc.py)
    
    - **通过early_stopping确定合理的基学习器个数：**
-     - [early_stopping_rounds.ipynb](https://nbviewer.jupyter.org/github/Albertsr/Machine-Learning/blob/master/5.%20Ensemble%20Learning/Boosting/early_stopping_rounds.ipynb)
+     - [jupyter：early_stopping_rounds](https://nbviewer.jupyter.org/github/Albertsr/Machine-Learning/blob/master/5.%20Ensemble%20Learning/Boosting/early_stopping_rounds.ipynb)
      - [代码：xgb_early_stopping.py](https://github.com/Albertsr/Machine-Learning/blob/master/5.%20Ensemble%20Learning/Boosting/xgb_early_stopping.py) 
     
     ![xgb_early_stopping](https://github.com/Albertsr/Machine-Learning/blob/master/5.%20Ensemble%20Learning/Boosting/xgb_early_stopping.jpg)
