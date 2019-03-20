@@ -140,7 +140,10 @@
 
 ### 4. 模型评估
 
-#### 4.1 交叉验证与常见评估指标：[交叉验证与常见评估指标](http://note.youdao.com/noteshare?id=417577308d6de13a1e21168d96cb9a76&sub=0F36C3976E3A420182A5A84782656470)
+#### 4.1 交叉验证与常见评估指标
+
+- **[1）交叉验证](https://nbviewer.jupyter.org/github/Albertsr/Machine-Learning/blob/master/7.%20Model%20Evaluation/%E4%BA%A4%E5%8F%89%E9%AA%8C%E8%AF%81.ipynb)**
+- **[2）分类与回归模型评估](https://nbviewer.jupyter.org/github/Albertsr/Machine-Learning/blob/master/7.%20Model%20Evaluation/%E5%88%86%E7%B1%BB%E4%B8%8E%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B%E8%AF%84%E4%BC%B0.ipynb)**
 
 #### 4.2 加权覆盖率
 - **出处：** [蚂蚁金服-风险大脑-支付风险识别大赛(第一赛季)](https://dc.cloud.alipay.com/index#/topic/data?id=4) 
@@ -168,14 +171,16 @@
  ![ks curve](https://github.com/Albertsr/Machine-Learning/blob/master/7.%20Model%20Evaluation/Pics/ks%20curve.jpg)
 
 #### 4.5 ROC曲线与PRC曲线的绘制
-- **绘制ROC代码：** [roc.py](https://github.com/Albertsr/Machine-Learning/blob/master/7.%20Model%20Evaluation/roc.py)
+
+- **1）ROC绘制代码：[roc.py](https://github.com/Albertsr/Machine-Learning/blob/master/7.%20Model%20Evaluation/roc.py)**
   
   ![roc](https://github.com/Albertsr/Machine-Learning/blob/master/7.%20Model%20Evaluation/Pics/roc.jpg)
 
-- **绘制PRC代码：** [prc.py](https://github.com/Albertsr/Machine-Learning/blob/master/7.%20Model%20Evaluation/prc.py)
+- **2）PRC绘制代码：[prc.py](https://github.com/Albertsr/Machine-Learning/blob/master/7.%20Model%20Evaluation/prc.py)**
   
   ![prc](https://github.com/Albertsr/Machine-Learning/blob/master/7.%20Model%20Evaluation/Pics/prc.jpg)  
 
+- **3）综合：[绘制KS、ROC、PRC曲线](https://nbviewer.jupyter.org/github/Albertsr/Machine-Learning/blob/master/7.%20Model%20Evaluation/%E7%BB%98%E5%88%B6KS%E3%80%81ROC%E3%80%81PRC%E6%9B%B2%E7%BA%BF.ipynb)**
 ---
 
 ### 5. 模型持久化
