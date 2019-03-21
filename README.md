@@ -63,15 +63,15 @@
 ---
 
 #### 2.2 Bagging
-- [Bagging减少variance，Boosting减少bias](http://note.youdao.com/noteshare?id=5a75ad193efd2341a2b9a6c7dbf5ba9a&sub=45E8EAAE1075459695FA53B451DB7F1B)
+- **[Bagging减少variance，Boosting减少bias](http://note.youdao.com/noteshare?id=5a75ad193efd2341a2b9a6c7dbf5ba9a&sub=45E8EAAE1075459695FA53B451DB7F1B)**
 
 
 #### 2.3 Stacking
-- **1）Stacking：** [Stacking详解](http://note.youdao.com/noteshare?id=c7891b8ad0e3013e176cb73536bdfad8&sub=943369E1A3B446FC932951A45BE7986B)
+- **1）Stacking：[Stacking详解](http://note.youdao.com/noteshare?id=c7891b8ad0e3013e176cb73536bdfad8&sub=943369E1A3B446FC932951A45BE7986B)**
 
-- **2）二级Stacking的个人实现：** [stacking_models.py](https://github.com/Albertsr/Machine-Learning/blob/master/5.%20Ensemble%20Learning/Stacking/stacking_models.py)
+- **2）二级Stacking的个人实现：[stacking_models.py](https://github.com/Albertsr/Machine-Learning/blob/master/5.%20Ensemble%20Learning/Stacking/stacking_models.py)**
 
-- **3）个人实现与Mlxtend对比：** [StackingModels_vs_Mlxtend.py](https://github.com/Albertsr/Machine-Learning/blob/master/5.%20Ensemble%20Learning/Stacking/StackingModels_vs_Mlxtend.py)
+- **3）个人实现与Mlxtend对比： [stackingmodels_vs_mlxtend.py](https://github.com/Albertsr/Machine-Learning/blob/master/5.%20Ensemble%20Learning/Stacking/StackingModels_vs_Mlxtend.py)**
 
 ---
 
@@ -188,7 +188,7 @@
   ![G-Mean](https://github.com/Albertsr/Class-Imbalance/blob/master/5.%20Appropriate%20Metrics/Pics/gmean.jpg)
 
 #### 4.4 KS值
-- **1) KS值定义：** max(TPR-FPR)
+- **1）KS值定义：** max(TPR-FPR)
 
 - **2）KS值代码实现：[ks_value.py](https://github.com/Albertsr/Machine-Learning/blob/master/7.%20Model%20Evaluation/ks_value.py)**
 
@@ -206,7 +206,7 @@
   
   ![prc](https://github.com/Albertsr/Machine-Learning/blob/master/7.%20Model%20Evaluation/Pics/prc.jpg)  
 
-- **3）综合：[绘制KS、ROC、PRC曲线](https://nbviewer.jupyter.org/github/Albertsr/Machine-Learning/blob/master/7.%20Model%20Evaluation/%E7%BB%98%E5%88%B6KS%E3%80%81ROC%E3%80%81PRC%E6%9B%B2%E7%BA%BF.ipynb)**
+- **3）综合：[绘制KS、ROC、PRC曲线.ipynb](https://nbviewer.jupyter.org/github/Albertsr/Machine-Learning/blob/master/7.%20Model%20Evaluation/%E7%BB%98%E5%88%B6KS%E3%80%81ROC%E3%80%81PRC%E6%9B%B2%E7%BA%BF.ipynb)**
 ---
 
 ### 5. 模型持久化
