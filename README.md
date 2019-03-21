@@ -76,16 +76,20 @@
 ---
 
 ### 3. 聚类
-#### 3.1 谱聚类：[谱聚类Spectral Clustering](http://note.youdao.com/noteshare?id=319bd869104b6674bef01dd0a3024597&sub=7740B67581D04E69A6DF492CD8E5E685)
-- **1）瑞利商：[瑞利商的性质及其证明](http://note.youdao.com/noteshare?id=9f0062a660ded11f2d9434a8b9c3988a&sub=9884B7629E2E417F82666903DA60A873)**
-- **2）拉普拉斯矩阵的最小特征值：[The Smallest Eigenvalues of a Graph Laplacian](http://blog.shriphani.com/2015/04/06/the-smallest-eigenvalues-of-a-graph-laplacian/)**
+#### 3.1 常见聚类算法原理
+- **[1）Spectral Clustering详述](http://note.youdao.com/noteshare?id=319bd869104b6674bef01dd0a3024597&sub=7740B67581D04E69A6DF492CD8E5E685)**
+  - [瑞利商的性质及其证明](http://note.youdao.com/noteshare?id=9f0062a660ded11f2d9434a8b9c3988a&sub=9884B7629E2E417F82666903DA60A873)
+  - [拉普拉斯矩阵的最小特征值](http://blog.shriphani.com/2015/04/06/the-smallest-eigenvalues-of-a-graph-laplacian/)
 
-#### 3.2 DBSCAN：[密度聚类DBSCAN](http://note.youdao.com/noteshare?id=2f9664802a90dfd9ecb2d421014a9696&sub=0FFCFBB5E9C14B1FA1DCE510700FB23A)
+- **[2）密度聚类DBSCAN](http://note.youdao.com/noteshare?id=2f9664802a90dfd9ecb2d421014a9696&sub=0FFCFBB5E9C14B1FA1DCE510700FB23A)**
 
-#### 3.3 KMeans：[K均值聚类KMeans](http://note.youdao.com/noteshare?id=393875faf212f47a718fb5bbfce657ce&sub=03362B91CB454DFD985E4EDBA9A06596)
+- **[3）K均值聚类KMeans](http://note.youdao.com/noteshare?id=393875faf212f47a718fb5bbfce657ce&sub=03362B91CB454DFD985E4EDBA9A06596)**
 
+- **[4）层次聚类BIRCH](http://note.youdao.com/noteshare?id=a93a6fc70108222262cc93ee3faef0a0&sub=A8848EAC58F04E08AE11D2BC424273B4)**
 
-#### 3.4 BIRCH：[层次聚类BIRCH](http://note.youdao.com/noteshare?id=a93a6fc70108222262cc93ee3faef0a0&sub=A8848EAC58F04E08AE11D2BC424273B4)
+#### 3.2 最佳聚类参数
+- **基本思想：** 运用GridSearch的思路在参数的笛卡尔积中寻找最佳聚类参数
+- **代码实现：[cluster_centers.py](https://github.com/Albertsr/Anomaly-Detection/blob/master/SemiSupervised-ADOA/cluster_centers.py)**
 
 ---
 
@@ -118,21 +122,30 @@
 
 ### 3. 特征工程
 #### 3.1 特征选择
-- **特征选择理论综述：** [特征选择详解](https://github.com/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.1%20Feature%20Selection/ReadMe.md)
+- **[1）三大特征选择理论综述](https://github.com/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.1%20Feature%20Selection/ReadMe.md)**
 
-- **代码实例**
-  - **Filter：** [filter.py](https://github.com/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.1%20Feature%20Selection/filter.py)
-  - **Wrapper：** [wrapper.py](https://github.com/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.1%20Feature%20Selection/wrapper.py)
-  - **Embedded：** [embedded.py](https://github.com/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.1%20Feature%20Selection/embedded.py)
+- **[2）Filter：filter.py](https://github.com/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.1%20Feature%20Selection/filter.py)**
+  
+- **[3）Wrapper：wrapper.py](https://github.com/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.1%20Feature%20Selection/wrapper.py)**
+  
+- **[4）Embedded：embedded.py](https://github.com/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.1%20Feature%20Selection/embedded.py)**
 
 #### 3.2 特征抽取
-- **PCA：** [PCA详解](http://note.youdao.com/noteshare?id=596c5a7394109f8da87be7ce74ee5e56&sub=AAB5BEA8761C4C40B0B60E697ED749E9)
-   - 通过原矩阵的SVD实现PCA：[pca_svd.py](https://github.com/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.2%20Feature%20Extraction/pca_svd.py)
-   - 通过协方差矩阵的EVD实现PCA：[pca_evd.py](https://github.com/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.2%20Feature%20Extraction/pca_evd.py)
+- **[1）PCA理论详解](http://note.youdao.com/noteshare?id=596c5a7394109f8da87be7ce74ee5e56&sub=AAB5BEA8761C4C40B0B60E697ED749E9)**
+   - **奇异值分解(SVD)实现PCA：[pca_svd.py](https://github.com/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.2%20Feature%20Extraction/pca_svd.py)**
+   - **特征值分解(EVD)实现PCA：[pca_evd.py](https://github.com/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.2%20Feature%20Extraction/pca_evd.py)**
    
-- **KernelPCA：** [KernelPCA详解](http://note.youdao.com/noteshare?id=6841be74d0fcf6f6a121869d6956aad0&sub=4107BFC5B47A49DD86524504B46EA639)
+- **[2）KernelPCA理论详解](http://note.youdao.com/noteshare?id=6841be74d0fcf6f6a121869d6956aad0&sub=4107BFC5B47A49DD86524504B46EA639)**
+  - **KernelPCA重构矩阵：[KernelPCA重构矩阵理论分析](https://github.com/Albertsr/Anomaly-Detection/tree/master/UnSupervised-Based%20on%20PCA#chapter-1基于样本的重构误差)**
+  - **KernelPCA异常检测：[Recon_Error_KPCA.py](https://github.com/Albertsr/Anomaly-Detection/blob/master/UnSupervised-Based%20on%20PCA/Recon_Error_KPCA.py)**
 
-- **SVD：** [SVD详解](http://note.youdao.com/noteshare?id=5ebc61d03c25c9164bc461f8fa66827d&sub=56B3F62C7C1445E6B715777AA5F15BDC)
+- **[3）SVD详解](http://note.youdao.com/noteshare?id=5ebc61d03c25c9164bc461f8fa66827d&sub=56B3F62C7C1445E6B715777AA5F15BDC)**
+   - **运用TruncatedSVD进行图像处理：[truncated_svd_cat](https://nbviewer.jupyter.org/github/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.2%20Feature%20Extraction/%E8%BF%90%E7%94%A8TruncatedSVD%E8%BF%9B%E8%A1%8C%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86.ipynb)**
+   
+   ![cat_svd](https://github.com/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.2%20Feature%20Extraction/cat_svd.jpg)
+
+   - sklearn运用SVD实现PCA
+   
 
 #### 3.3 特征构建
 - 高基数离散型特征的处理：[high_categorical.py](https://github.com/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.3%20Feature%20Construction/high_categorical.py)
