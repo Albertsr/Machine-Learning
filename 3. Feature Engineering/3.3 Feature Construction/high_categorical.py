@@ -6,19 +6,19 @@ import numpy as np
 import pandas as pd
 
 
-def high_categorical(df, feature, k=3):
-    # df为pandas.DataFrame格式
-    # feature为df的某一列高势集离散型特征，为pandas.Series格式
+def high_categorical(dataframe, high_discrete, k=3):
+    # dataframe为pandas.DataFrame格式
+    # high_discrete为dataframe的某一列高势集离散型特征，为pandas.Series格式
     # k表示上述离散型特征出现频次最高的k个不重复取值
-    feature = pd.Series(feature)
-    name = feature.name
-    feature_val_counts = feature.value_counts()
     
-    val_class = list(feature_val_counts[:k].index)
-    val_class.append('other')
-    feature = feature.apply(lambda val: val if val in val_class else 'other')
-    feature_dummies = pd.get_dummies(feature, prefix=name)
+    value_counts = high_discrete.value_counts()
+    top_categories = list(value_counts[:k].index)
+    top_categories.append('other')
     
-    df = df.join(feature_dummies)
-    df.drop(feature.name, axis=1, inplace=True)
-    return df
+    high_discrete = high_discrete.apply(lambda category: category if category in top_categories else 'other')
+    #print(high_discrete)
+    feature_dummies = pd.get_dummies(high_discrete, prefix=high_discrete.name)
+    
+    dataframe = dataframe.join(feature_dummies)
+    dataframe.drop(high_discrete.name, axis=1, inplace=True)
+    return dataframe
