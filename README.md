@@ -139,18 +139,25 @@
   - **KernelPCA重构矩阵：[KernelPCA重构矩阵理论分析](https://github.com/Albertsr/Anomaly-Detection/tree/master/UnSupervised-Based%20on%20PCA#chapter-1基于样本的重构误差)**
   - **KernelPCA异常检测：[Recon_Error_KPCA.py](https://github.com/Albertsr/Anomaly-Detection/blob/master/UnSupervised-Based%20on%20PCA/Recon_Error_KPCA.py)**
 
-- **[3）SVD详解](http://note.youdao.com/noteshare?id=5ebc61d03c25c9164bc461f8fa66827d&sub=56B3F62C7C1445E6B715777AA5F15BDC)**
+- **[3）SVD理论详解](http://note.youdao.com/noteshare?id=5ebc61d03c25c9164bc461f8fa66827d&sub=56B3F62C7C1445E6B715777AA5F15BDC)**
+   - **验证：[sklearn采用SVD实现PCA.ipynb](https://nbviewer.jupyter.org/github/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.2%20Feature%20Extraction/%E9%AA%8C%E8%AF%81%EF%BC%9Asklearn%E9%87%87%E7%94%A8SVD%E5%AE%9E%E7%8E%B0PCA.ipynb)**
    - **运用TruncatedSVD进行图像处理：[truncated_svd_cat](https://nbviewer.jupyter.org/github/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.2%20Feature%20Extraction/%E8%BF%90%E7%94%A8TruncatedSVD%E8%BF%9B%E8%A1%8C%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86.ipynb)**
-   
-   ![cat_svd](https://github.com/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.2%20Feature%20Extraction/cat_svd.jpg)
-
-   - sklearn运用SVD实现PCA
-   
 
 #### 3.3 特征构建
-- 高基数离散型特征的处理：[high_categorical.py](https://github.com/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.3%20Feature%20Construction/high_categorical.py)
-- 时间型特征的处理：[create_time_feature.py](https://github.com/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.3%20Feature%20Construction/create_time_feature.py)
-- 连续型特征的处理：[连续型特征的处理.ipynb](https://github.com/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.3%20Feature%20Construction/%E8%BF%9E%E7%BB%AD%E5%9E%8B%E7%89%B9%E5%BE%81%E7%9A%84%E5%A4%84%E7%90%86.ipynb)
+- **1）离散型特征**
+  - **生成哑变量：[OneHotEncoder + pandas.get_dummies](https://nbviewer.jupyter.org/github/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.3%20Feature%20Construction/%E7%94%9F%E6%88%90%E5%93%91%E5%8F%98%E9%87%8F.ipynb)**
+    
+  - **高基数类别特征的处理**
+    - **[代码：high_categorical.py](https://github.com/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.3%20Feature%20Construction/high_categorical.py)**
+    - **[实例：处理150个不重复取值的邮政编码](https://nbviewer.jupyter.org/github/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.3%20Feature%20Construction/%E9%AB%98%E5%9F%BA%E6%95%B0%E7%B1%BB%E5%88%AB%E7%89%B9%E5%BE%81%E7%9A%84%E5%A4%84%E7%90%86.ipynb)** 
+
+- **2）时间型特征的处理**
+  - **[代码：create_time_feature.py](https://github.com/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.3%20Feature%20Construction/create_time_feature.py)**
+  - **[实例：根据时间戳生成时间型索引&透视分析.ipynb](https://nbviewer.jupyter.org/github/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.3%20Feature%20Construction/%E6%A0%B9%E6%8D%AE%E6%97%B6%E9%97%B4%E6%88%B3%E7%94%9F%E6%88%90%E6%97%B6%E9%97%B4%E5%9E%8B%E7%B4%A2%E5%BC%95%26%E9%80%8F%E8%A7%86%E5%88%86%E6%9E%90.ipynb)**
+
+- **3）连续型特征的处理**
+  - **[连续型特征的分箱处理.ipynb](https://nbviewer.jupyter.org/github/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.3%20Feature%20Construction/%E8%BF%9E%E7%BB%AD%E5%9E%8B%E7%89%B9%E5%BE%81%E7%9A%84%E5%88%86%E7%AE%B1%E5%A4%84%E7%90%86.ipynb)**
+  - **[长尾数据的处理.ipynb](https://nbviewer.jupyter.org/github/Albertsr/Machine-Learning/blob/master/3.%20Feature%20Engineering/3.3%20Feature%20Construction/%E9%95%BF%E5%B0%BE%E6%95%B0%E6%8D%AE%E7%9A%84%E5%A4%84%E7%90%86.ipynb)**
 
 ---
 
