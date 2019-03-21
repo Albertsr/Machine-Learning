@@ -45,14 +45,14 @@
 - **3）XGBoost：[XGBoost理论详解](http://note.youdao.com/noteshare?id=8ec0afbb4b92a3ccfde94decd3bb2432&sub=2A73304730AF4BC0B0F8C53ECCA22917)**
 
    - **自定义损失函数：**
-     - [jupyter：XGB自定义损失.ipynb](https://nbviewer.jupyter.org/github/Albertsr/Machine-Learning/blob/master/5.%20Ensemble%20Learning/Boosting/XGB%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8D%9F%E5%A4%B1%26%E5%8F%AF%E8%A7%86%E5%8C%96.ipynb)
-     - [代码：xgb_custom_lossfunc.py](https://github.com/Albertsr/Machine-Learning/blob/master/5.%20Ensemble%20Learning/Boosting/xgb_custom_lossfunc.py)
+     - **[Jupyter：XGB自定义损失.ipynb](https://nbviewer.jupyter.org/github/Albertsr/Machine-Learning/blob/master/5.%20Ensemble%20Learning/Boosting/XGB%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8D%9F%E5%A4%B1%26%E5%8F%AF%E8%A7%86%E5%8C%96.ipynb)**
+     - **[代码：xgb_custom_lossfunc.py](https://github.com/Albertsr/Machine-Learning/blob/master/5.%20Ensemble%20Learning/Boosting/xgb_custom_lossfunc.py)**
      
      ![xgb_loss](https://github.com/Albertsr/Machine-Learning/blob/master/5.%20Ensemble%20Learning/Boosting/xgb_loss.jpg)
    
    - **通过early_stopping确定合理的基学习器个数：**
-     - [jupyter：early_stopping_rounds](https://nbviewer.jupyter.org/github/Albertsr/Machine-Learning/blob/master/5.%20Ensemble%20Learning/Boosting/early_stopping_rounds.ipynb)
-     - [代码：xgb_early_stopping.py](https://github.com/Albertsr/Machine-Learning/blob/master/5.%20Ensemble%20Learning/Boosting/xgb_early_stopping.py) 
+     - **[Jupyter：early_stopping_rounds](https://nbviewer.jupyter.org/github/Albertsr/Machine-Learning/blob/master/5.%20Ensemble%20Learning/Boosting/early_stopping_rounds.ipynb)**
+     - **[代码：xgb_early_stopping.py](https://github.com/Albertsr/Machine-Learning/blob/master/5.%20Ensemble%20Learning/Boosting/xgb_early_stopping.py)** 
     
     ![xgb_early_stopping](https://github.com/Albertsr/Machine-Learning/blob/master/5.%20Ensemble%20Learning/Boosting/xgb_early_stopping.jpg)
 
