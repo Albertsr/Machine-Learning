@@ -1,8 +1,11 @@
 - **Author：** 马肖
 - **E-Mail：** maxiaoscut@aliyun.com
 - **GitHub：**  https://github.com/Albertsr
+---
 
-- **备注：由于Github无法正常显示公式，部分链接为个人整理的有道云笔记链接，若无法正常显示，请尝试刷新**
+### 备注：
+#### 1. 以下链接均为个人原创整理，理论部分主要为有道云笔记MarkDown文件
+#### 2. 部分Markdown文件包含大量LaTeX数学公式，请耐心等待加载
 
 ---
 
