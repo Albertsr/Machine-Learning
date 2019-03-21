@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 
 
-def high_categorical(dataframe, high_discrete, k=3):
+def high_categorical(dataframe, high_discrete, k=5):
     # dataframe为pandas.DataFrame格式
     # high_discrete为dataframe的某一列高势集离散型特征，为pandas.Series格式
     # k表示上述离散型特征出现频次最高的k个不重复取值
